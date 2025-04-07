@@ -10,6 +10,8 @@
 8. Build the mimikatz kit
 9. Load all the cna files (e.g., artifact.cna, resource.cna, mimikatz.cna)
 10. Generate all Windows stageless CS payloads
+11. Host the AMSI bypass at /bypass
+12. Host any PS1 files directly (avoids compress) (e.g., /http64ps1)
 
 
 ## 1. Set DNS records
@@ -96,3 +98,7 @@ for ($nops = 0; $nops -lt $v_code.Count; $nops++) {
 ## 9. Load all the cna files (e.g., artifact.cna, resource.cna, mimikatz.cna)
 
 ## 10. Generate all Windows stageless CS payloads
+
+## 11. Host the AMSI bypass at /bypass
+
+## 12. Host any PS1 files directly (avoids compress) (e.g., /http64ps1)
