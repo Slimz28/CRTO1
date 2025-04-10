@@ -47,11 +47,11 @@ ExecStart=/home/attacker/cobaltstrike/teamserver 10.10.5.50 Passw0rd! c2-profile
 WantedBy=multi-user.target
 ```
 
-Setup the service to enable on boot after creating teamserver.service
-`sudo systemctl daemon-reload`
-`sudo systemctl status teamserver.service`
-`sudo systemctl start teamserver.service`
-`sudo systemctl enable teamserver.service`
+Setup the service to enable on boot after creating teamserver.service\
+`sudo systemctl daemon-reload`\
+`sudo systemctl status teamserver.service`\
+`sudo systemctl start teamserver.service`\
+`sudo systemctl enable teamserver.service`\
 
 ## 4. Create http, smb, dns, tcp, tcp-local listeners
 
