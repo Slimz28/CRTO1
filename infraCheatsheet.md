@@ -18,7 +18,7 @@
 
 @ A 3600 10.10.5.50\
 ns1 A 3600 10.10.5.50\
-pics A 3600 ns1.getwrecked.com
+pics NS 3600 ns1.getwrecked.com
 
 ## 2. Load Malleable C2 profile
 
