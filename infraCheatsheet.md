@@ -51,7 +51,7 @@ Setup the service to enable on boot after creating teamserver.service\
 `sudo systemctl daemon-reload`\
 `sudo systemctl status teamserver.service`\
 `sudo systemctl start teamserver.service`\
-`sudo systemctl enable teamserver.service`\
+`sudo systemctl enable teamserver.service`
 
 ## 4. Create http, smb, dns, tcp, tcp-local listeners
 
