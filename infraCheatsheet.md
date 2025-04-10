@@ -30,7 +30,8 @@ pics NS 3600 ns1.getwrecked.com
 `sudo vim /etc/systemd/system/teamserver.service`
 
 *include in teamserver.service:*
-```[Unit]
+```
+[Unit]
 Description=Cobalt Strike Team Server
 After=network.target
 StartLimitIntervalSec=0
