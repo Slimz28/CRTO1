@@ -21,7 +21,7 @@ stage {
 
     set userwx "false";
     set cleanup "true";
-    set sleep_mask "false";
+    set sleep_mask "true";
     set smartinject "true";
     set stomppe "true";
     set obfuscate "true";
